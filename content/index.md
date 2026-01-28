@@ -1,6 +1,6 @@
 ---
-title: Welcome to Quartz
+title: Welcome Hugo's webpage
+description: Hugo's webpage
 ---
 
-This is a blank Quartz installation.
-See the [documentation](https://quartz.jzhao.xyz) for how to get started.
+This is going to be my webpage
