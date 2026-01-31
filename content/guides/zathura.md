@@ -1,5 +1,8 @@
 ---
-tags: guides, tools, zathura, todo
+tags:
+  - guides
+  - zathura
+  - todo
 ---
 
 # How to set up and customize Zathura
