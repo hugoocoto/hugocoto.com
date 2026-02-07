@@ -12,7 +12,7 @@ plugins. It's single thread, event-based and easy to use.
 - [[#Architecture]]
 - [[#Eqnx API]]
 - [[#ESX API]]
-- [[#Language agnosticism]]
+- [[#Questions or support]]
 
 > This tool provides the structural foundation for various software extensions to
 > seamlessly  coexist within a single visual space. Users can program autonomous
@@ -22,6 +22,8 @@ plugins. It's single thread, event-based and easy to use.
 > distribution, ensuring that every element operates in a fluid and coordinated
 > manner.
 
+- Public repository: https://github.com/hugoocoto/eqnx
+- Webpage: https://hugocoto.com/eqnx
 
 ## Quickstart
 
@@ -347,4 +349,27 @@ well known compiled languages, at least for `C++`, `rust` and `zig`. The main
 idea is that although the core is totally in `C`, the plugins could be written in
 any language, and they must be able to interact with plugins in any language
 compatible with the eqnx architecture by design.
+
+## Copyright and License
+
+***Copyright © 2026 Hugo Coto Flórez***
+
+Eqnx is free software; you can redistribute it and/or modify it under the
+terms of the GNU General Public License as published by the Free Software
+Foundation, either version 3 of the License, or any later version.
+
+Eqnx is distributed in the hope that it will be useful, but WITHOUT ANY
+WARRANTY; without even the implied warranty of MERCHANTABILITY of FITNESS FOR
+A PARTICULAR PURPOSE. See the GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License along with
+the source code. If not, see <https://www.gnu.org/licenses/>
+
+
+## Questions or support
+For questions or support, contact me by mail
+[me@hugocoto.com](mailto:me@hugocoto.com) or matrix
+[hugocoto:matrix.org](https://matrix.to/#/@hugocoto:matrix.org) for a faster
+response. The mail redirection sometimes fails; if I don't answer it, resend it
+again. The mail provider used to told when a mail is not sent.
 
