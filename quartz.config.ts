@@ -17,7 +17,7 @@ const config: QuartzConfig = {
     },
     locale: "en-US",
     baseUrl: "hugocoto.com",
-    ignorePatterns: ["private", "templates", ".obsidian"],
+    ignorePatterns: ["copilot", "private", "templates", ".obsidian"],
     defaultDateType: "modified",
     theme: {
       fontOrigin: "googleFonts",
