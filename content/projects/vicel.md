@@ -23,7 +23,7 @@ proprietary non gratis well known Microsoft program, for non professional usage.
 
 ## Reference manual 
 Documentation and installation/usage guide are
-[here](./docs/vicel_reference.pdf). [Download link](https://raw.githubusercontent.com/hugoocoto/vicel/main/docs/vicel_reference.pdf)
+[here](https://github.com/hugoocoto/vicel/blob/main/docs/vicel_reference.pdf). [Download link](https://raw.githubusercontent.com/hugoocoto/vicel/main/docs/vicel_reference.pdf)
 
 ## How to install
 You can install it with make. `make` creates the debug mode executable. `make
