@@ -40,6 +40,27 @@ unzip flag.h-1.0.0.zip
 4. `if (flag_parse(&argc, &argv)) { flag_show_help(STDOUT_FILENO); exit(1); }`
 5. `flag_free()`
 
+#### Meaning of fields
+```c
+struct flag_opts {
+        const char *opt;  // Flag (--help)
+        const char *abbr; // Flag abbreviation (-h)
+        char *help;       // Help message for the flag
+        int nargs;        // Number of args to catch (max 1)
+        char *defaults;   // Default value as string (default is a keyword)
+        int required;     // Set to 1 if the flag must be set
+        char **var;       // Stores the pointer to the variable where the value should be set
+};
+
+static struct program_opts {
+        char *name;         // program name. Used in the help message
+        char *help;         // program help. Used in the help message
+        char **positionals; // possitional arguments (check that argc -1 >= len(it))
+} flag_prog = { 0 };
+
+
+```
+#### Important considerations
 **argc** and **argv** are modified, the flags and their values are deleted. So the
 final **argc** is `1 (program name) + non-flag count`.
 
