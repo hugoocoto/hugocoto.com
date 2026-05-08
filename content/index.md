@@ -1,26 +1,26 @@
 ---
-title: Hugo's webpage
-description: Hugo's webpage
+title: Hugo's wiki
+description: Hugo's wiki
 ---
-Hello, my name is Hugo Coto Flórez. I'm a Spanish computer science student at the University of Santiago de Compostela. In my free time I'm an artist, I wrote prose than humans enjoy and compilers understand. I'm focused on being close to the hardware while keeping programs as simple and performant as possible. I read teorycal books about operating systems, Physics, Compilers or Linux just for fun.  If you want to see what I did, check my projects. For other entries as my favorite software or book recommendations see articles. 
+
+Wellcome to my wiki! Here you can find some writtings about diverse stuff.
 
 ---
 
 Socials:
+- [webpage](https://hugocoto.com)
 - [github](https://github.com/hugoocoto)
 - [codeberg](https://github.com/hugoocoto)
 
 Guides:
 - [How to set up zathura pdf reader](guides/zathura.md)
 - [Various guides about C programming language](guides/C)
-
-Articles:
-- [[software|Software recommendations]]
-- [[Books|Book recommendations]]
+- [Cómo aislar una CPU](guides/aislamiento_cpu.md)
+- [Makefile](guides/make.md)
 
 Projects:
 - [Vicel](projects/vicel)
 - [Eqnx](projects/eqnx)
-- [github](https://github.com/hugoocoto)
-- [codeberg](https://github.com/hugoocoto)
+- [more projects: github](https://github.com/hugoocoto)
+- [more projects: codeberg](https://github.com/hugoocoto)
 
