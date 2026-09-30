@@ -1,0 +1,18 @@
+# The wiki moved to https://hugocoto.com/wiki. Cloudflare Pages applies these
+# before serving any page. First match wins, so the catch-all goes last.
+
+/                                 https://hugocoto.com/wiki                              301
+/index                            https://hugocoto.com/wiki                              301
+
+/guides/zathura                   https://hugocoto.com/wiki/guides/zathura               301
+/guides/aislamiento_cpu           https://hugocoto.com/wiki/guides/aislamiento_cpu       301
+/guides/*                         https://hugocoto.com/wiki/guides                       301
+/guides                           https://hugocoto.com/wiki/guides                       301
+
+/projects/vicel                   https://hugocoto.com/wiki/projects/vicel               301
+/projects/eqnx                    https://hugocoto.com/wiki/projects/eqnx                301
+/projects/flag.h                  https://hugocoto.com/wiki/projects/flag.h              301
+/projects/*                       https://hugocoto.com/wiki/projects                     301
+/projects                         https://hugocoto.com/wiki/projects                     301
+
+/*                                https://hugocoto.com/wiki                              301
